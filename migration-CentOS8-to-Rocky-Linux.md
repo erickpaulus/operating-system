@@ -1,4 +1,4 @@
-> This information describe the migration process from CentOS 8 to Rocky Linux.
+> This information describes the migration process from CentOS 8 to Rocky Linux.
 > The process is not as difficult as I thought before.
 > 
 ## What is CentOS 8
