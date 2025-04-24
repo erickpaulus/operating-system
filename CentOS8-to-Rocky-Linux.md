@@ -15,21 +15,23 @@ You must be running CentOS 8 (not CentOS Stream).
 Ensure all updates are installed:
 ```bash
 sudo dnf update -y
+```
+
 Reboot if necessary.
 
 ## Migration Steps
 1. Download the official migration script:
 ```bash
 curl -O https://raw.githubusercontent.com/rocky-linux/rocky-tools/main/migrate/migrate2rocky.sh
-
+```
 2. Make the script executable:
 ```bash
 chmod +x migrate2rocky.sh
-
+```
 3. Run the migration:
 ```bash
 sudo bash migrate2rocky.sh -r
-
+```
 This script:
 - Detects your current CentOS packages
 - Replaces them with Rocky Linux equivalents
@@ -38,11 +40,11 @@ This script:
 4. Reboot the system:
 ```bash
 sudo reboot
-
+```
 5. Verify the migration: After reboot, check the OS release:
 ```bash
 cat /etc/os-release
-
+```
 ## Notes
 Back up your system before starting, especially if it's in a production environment.
 
