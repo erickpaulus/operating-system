@@ -1,3 +1,6 @@
+> This information describe the migration process from CentOS 8 to Rocky Linux.
+> The process is not as difficult as I thought before.
+> 
 ## What is CentOS 8
 CentOS (Community ENTerprise Operating System) was a free, open-source Linux distribution derived from the sources of Red Hat Enterprise Linux (RHEL). CentOS 8, released in September 2019, was part of the CentOS project’s effort to provide a robust, enterprise-grade operating system to the community.
 
